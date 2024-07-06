@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.btn{
+padding: 12px 16px 12px 16px;
+
+border-radius: 8px;
+background: rgb(82, 195, 3);
+border: none;
+
+color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+
+}
+.btn-container{
+    text-align: center;
+}
+
+#hero{
+    height:707px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content{
+    width: 787px;
+
+}
+
+#hero .hero-content .subtitel{
+    color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 21px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+opacity: 0.8;
+text-align: center;
+margin-bottom: 10px;
+
+
+}
+
+#hero .hero-content .titel{
+color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-bottom: 14px;
+
+}
+
+#hero .hero-content .description{
+color: rgb(255, 255, 255);
+font-family: "Work Sans", sans-serif;
+font-size: 13.3px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-bottom: 32px;
+}
+
+/* second */
+
+#card-box{
+
+    width: 1016px;
+    margin: 50px auto;
+
+}
+#card-box .titel{
+ color: rgb(16, 16, 16);
+ font-family: "Work Sans", sans-serif;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+#card-box .subtitel{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center; 
+opacity: 0.6;
+
+
+}
+
+.card-container{
+    margin-top: 30px;
+    /* border: 2px solid  black; */
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.card{
+
+    /* border: 2px solid  black; */
+
+
+    max-width: 260px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .img-box{
+    width: 260px;
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .Shop{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center; 
+border-radius: 8px;
+background: rgba(82, 195, 3, 0.15);
+padding: 14px 32px 14px 32px;
+
+}
+
+/* section 3 */
+
+
+.sec3-container{
+    height: 500px;
+    display: flex;
+}
+
+.content-box{
+    height: 500px;
+    width: 799px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-box .box2{
+
+    height: 370px;
+    width: 600px;
+
+}
+.box2 h1{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 34px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+
+}
+.box2 .p1{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+
+}
+.box2 .p2{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 70px;
+
+}
+
+.box2 .icon{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+/* section 4 */
+
+.main-box{
+    width: 1516px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-box .main-2{
+width: 300px;
+height: 455px;
+}
+
+.main-2 .img-box{
+width: 300px;
+height: 200px;
+}
+.main-2 .content-box{
+width: 300px;
+height: 250px;
+}
+
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    
+}
+
+.content-box .spn{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+padding: 10px 20px 10px 20px;
+background: rgba(82, 195, 3, 0.15);
+margin-top: 20px;
+
+}
+.content-box .h1{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-top: 16px;
+
+}
+
+.content-box .para{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center; 
+opacity: 0.7;
+
+margin-top: 15px;
+
+}
+
+.content-box .btn{
+    margin-top: 40px;
+}
+
+
+/* last section footer */
+
+.one{
+    width: 1516px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url(./assets/social-bg.png); */
+
+
+    background-image:linear-gradient(0.00deg, rgb(248, 247, 247) -19.5%,rgba(255, 251, 251, 0.874) 100%),url(./assets/social-bg.png);
+
+    background-size: cover;
+    background-position: center;
+
+
+
+  
+}
+
+.one .two{
+    width: 900px;
+    height: 260px;
+}
+
+.one .two .hh1{
+
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 55px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+.one .two .pp1
+{
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-bottom: 20px;
+
+}
+
+.one .two .pp2{
+
+color: rgb(16, 16, 16);
+font-family: "Work Sans", sans-serif;
+font-size: 19px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+.one .two .icons{
+
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+
+
+}
